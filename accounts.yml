@@ -1,0 +1,13 @@
+#server:
+#  port: 8071
+
+
+# accounts is created to read the application property with the list. Need to Create the POJO class and using the @ConfigurationProperties we can read that List of configurations 
+accounts:
+  message: "Welcome to Bank Account Related APIs Update with Docker"
+  contactDetails:
+    name: "Pritesh Desai"
+    email: "{cipher}0d6a1f2ab6b7398b14f058289c294cfad45972106063ca888e74363c9246bfe996208ebc66ef576722efc85c68917789" 
+  onCallSupport:
+    - (555)555-1234
+    - (555)523-1345

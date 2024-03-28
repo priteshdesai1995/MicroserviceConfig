@@ -1,0 +1,12 @@
+#server:
+#  port: 9000
+
+# cards is created to read the application property with the list. Need to Create the POJO class and using the @ConfigurationProperties we can read that List of configurations 
+cards:
+  message: "Welcome to Bank Card Related APIs Test"
+  contactDetails:
+    name: "Pritesh Desai Test"
+    email: "priteshdesai811Test@gmail.com" 
+  onCallSupport:
+    - (555)555-1234
+    - (555)523-1345

@@ -1,0 +1,12 @@
+#server:
+#  port: 8090
+    
+# loans is created to read the application property with the list. Need to Create the POJO class and using the @ConfigurationProperties we can read that List of configurations 
+loans:
+  message: "Welcome to Bank Cards Related APIs"
+  contactDetails:
+    name: "Pritesh Desai"
+    email: "priteshdesai811@gmail.com" 
+  onCallSupport:
+    - (555)555-1234
+    - (555)523-1345
